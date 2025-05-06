@@ -71,7 +71,7 @@
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
-  --bs-body-font-weight: 320;
+  --bs-body-font-weight: 0;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-color-rgb: 33, 37, 41;
@@ -6024,7 +6024,7 @@ textarea.form-control-lg {
   justify-content: center;
   width: 15%;
   padding: 0;
-  color: #fff;
+  color: #ccb8ef;
   text-align: center;
   background: none;
   border: 0;
@@ -6042,7 +6042,7 @@ textarea.form-control-lg {
 .carousel-control-prev:hover, .carousel-control-prev:focus,
 .carousel-control-next:hover,
 .carousel-control-next:focus {
-  color: #fff;
+  color: #ccb8ef;
   text-decoration: none;
   outline: 0;
   opacity: 0.9;
@@ -6106,7 +6106,7 @@ textarea.form-control-lg {
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #ccb8ef;
   background-clip: padding-box;
   border: 0;
   border-top: 10px solid transparent;
@@ -6810,12 +6810,12 @@ textarea.form-control-lg {
 }
 
 .text-bg-primary {
-  color: #fff !important;
+  color: #ccb8ef !important;
   background-color: RGBA(89, 87, 142, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-secondary {
-  color: #fff !important;
+  color: #ccb8ef !important;
   background-color: RGBA(88.2236024845, 102.7080745342, 123.7763975155, var(--bs-bg-opacity, 1)) !important;
 }
 
@@ -11701,11 +11701,11 @@ textarea.form-control-lg {
 
 /*************************** Pillar Styles ****************************/
 body {
-  font-family: 'Roboto', sans-serif;
-  background: #F7F8FA;
+  font-family: 'Consolas', sans-serif;
+  background: #4128ff1e;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #434E5E;
+  color: #311360;
   overflow-x: hidden;
 }
 
@@ -11714,7 +11714,7 @@ a {
 }
 
 a:hover {
-  color: #3b3a5f;
+  color: #413463;
 }
 
 a.no-text-decoration {
@@ -11731,7 +11731,7 @@ a.no-text-decoration {
 
 a.theme-btn-on-bg, .theme-btn-on-bg {
   background: rgba(0, 0, 0, 0.2);
-  color: #fff;
+  color: #ccb8ef;
   border: none;
 }
 
@@ -11742,7 +11742,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .progress {
-  border-radius: 2px;
+  border-radius: 8px;
 }
 
 .theme-progress-bar-dark {
@@ -11760,7 +11760,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 
 .resume-header {
   background: #59578E;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(222, 213, 248, 0.9);
   height: 220px;
 }
 
@@ -11779,11 +11779,11 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .resume-header a {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgb(247, 233, 254);
 }
 
 .resume-header a:hover {
-  color: white;
+  color: rgb(201, 175, 249);
 }
 
 .resume-social {
@@ -11793,10 +11793,10 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 .resume-social .fa-container {
   font-size: 1rem;
   display: inline-block;
-  width: 24px;
-  height: 24px;
-  border-radius: 0.125rem;
-  background: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 0.128rem;
+  background: rgb(243, 238, 248);
   color: #59578E;
 }
 
@@ -11813,7 +11813,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   bottom: 0;
   width: 100%;
   height: 1.5px;
-  background: #8d9aad;
+  background: #998dad;
 }
 
 .resume-section-content {
@@ -11853,7 +11853,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .resume-company-name {
-  color: #58677c;
+  color: #dcd8e9;
   font-size: 0.875rem;
   font-weight: 500;
 }
@@ -11865,7 +11865,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 
 .resume-position-title {
   font-size: 1.125rem;
-  color: #434E5E;
+  color: #4d435e;
 }
 
 .resume-timeline-item-desc-heading {
@@ -11874,7 +11874,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 
 .resume-skills-cat {
   font-size: 1rem;
-  color: #434E5E;
+  color: #4f435e;
 }
 
 .resume-skill-name {
@@ -11908,7 +11908,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 
 .resume-award-name {
   font-weight: bold;
-  color: #434E5E;
+  color: #4d435e;
 }
 
 .resume-award-desc {
@@ -11920,7 +11920,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .footer .fa-heart {
-  color: #fb866a;
+  color: #846afb;
 }
 
 @media (max-width: 767.98px) {
